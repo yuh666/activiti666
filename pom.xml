@@ -23,9 +23,11 @@
         </dependency>
 
     </dependencies>
+
+
+
     <build>
-
-
+        <!-- 设置jdkbian编译版本 -->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -36,11 +38,7 @@
                     <target>${jdk.version}</target>
                 </configuration>
             </plugin>
-
-
         </plugins>
-
-
         <finalName>activiti</finalName>
     </build>
 </project>
